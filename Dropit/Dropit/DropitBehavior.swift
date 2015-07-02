@@ -19,7 +19,7 @@ class DropitBehavior: UIDynamicBehavior {
     
     lazy var dropBehavior: UIDynamicItemBehavior = {
        let lazilyCreateDynamic = UIDynamicItemBehavior()
-        lazilyCreateDynamic.allowsRotation = false
+//        lazilyCreateDynamic.allowsRotation = false
         lazilyCreateDynamic.elasticity = 0.75
         return lazilyCreateDynamic
     }()
